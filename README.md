@@ -16,6 +16,8 @@ This project presents a multi-dimensional analysis of student mental health and 
 ## 📊 Dataset & Processing
 The dataset captures demographics, academic performance, and psychological metrics (Anxiety, Depression, Financial Stress, Sleep hygiene).
 
+### Dataset：https://www.kaggle.com/datasets/sharmajicoder/student-mental-health-and-burnout
+
 ### Data Pipeline Architecture:
 1. **Script 1 (Cleaning.ipynb):** Performed on the full **1M population** using cuDF. We implemented **Z-Score Outlier Removal** to eliminate statistical noise in GPA and sleep metrics, ensuring the integrity of our trends.
 2. **Script 2 (Group_Project_Plotly_Visualization.ipynb):** Generates a professional **3-Chart Dashboard** based on a statistically significant 50,000-row cleaned sample:
