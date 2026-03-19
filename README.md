@@ -17,8 +17,8 @@ This project presents a multi-dimensional analysis of student mental health and 
 The dataset captures demographics, academic performance, and psychological metrics (Anxiety, Depression, Financial Stress, Sleep hygiene).
 
 ### Data Pipeline Architecture:
-1. **Script 1 (Data Cleaning):** Performed on the full **1M population** using cuDF. We implemented **Z-Score Outlier Removal** to eliminate statistical noise in GPA and sleep metrics, ensuring the integrity of our trends.
-2. **Script 2 (Dashboard Generation):** Generates a professional **3-Chart Dashboard** based on a statistically significant 50,000-row cleaned sample:
+1. **Script 1 (Cleaning.ipynb):** Performed on the full **1M population** using cuDF. We implemented **Z-Score Outlier Removal** to eliminate statistical noise in GPA and sleep metrics, ensuring the integrity of our trends.
+2. **Script 2 (Group_Project_Plotly_Visualization.ipynb):** Generates a professional **3-Chart Dashboard** based on a statistically significant 50,000-row cleaned sample:
     - **Chart 1 (Burnout Density):** A Violin Plot visualizing the probability density across genders.
     - **Chart 2 (Stressor Analysis):** A bar chart sorted from **High → Medium → Low** risk to demonstrate factor decay.
     - **Chart 3 (Global Correlation):** A GPU-calculated heatmap providing the roadmap for feature selection in ML.
