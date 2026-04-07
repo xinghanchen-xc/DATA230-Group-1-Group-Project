@@ -41,6 +41,15 @@ The dataset captures demographics, academic performance, and psychological metri
 
 ---
 
+## 📈 Interactive Dashboard & Presentation
+
+### 🔗 Tableau Dashboard
+Explore the interactive Tableau dashboard for deeper insights into the relationship between student behavior and burnout:
+
+👉 [View Tableau Dashboard](https://public.tableau.com/app/profile/sanjana.reddy.katham/viz/TableauVisualizationforMid-Sem/Dashboard1?publish=yes)
+
+---
+
 ## 👥 Team Contributions (Mid-Presentation)
 | Name | Responsibility | Primary Tools |
 | :--- | :--- | :--- |
